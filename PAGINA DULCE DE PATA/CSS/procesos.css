@@ -1,0 +1,40 @@
+.procesos{
+    background-color: #fff5ee;
+    padding: 50px 0;
+}
+
+.fila-proceso{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    gap: 20px;
+}
+
+.fila-invertida{
+    flex-direction: row-reverse;
+}
+
+.fila-proceso .imagen img{
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+.fila-proceso .texto{
+    flex: 1;
+}
+
+.fila-proceso .texto h3{
+    color: #d94d1a;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.fila-proceso .texto p{
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+

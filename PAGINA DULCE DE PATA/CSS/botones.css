@@ -1,0 +1,44 @@
+.iconos-redes{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.iconos-redes a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #d94d1a;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.iconos-redes a img{
+    width: 24px;
+    height: 24px;
+}
+
+.iconos-redes a:hover{
+    background: #a72e10;
+}
+
+.btn-whatsapp{
+    background: #25d366;
+}
+.btn-whatsapp:hover{
+    background: #128C7E;
+}
+
+footer{
+    background-color: #d94d1a;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}

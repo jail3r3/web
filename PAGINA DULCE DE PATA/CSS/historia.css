@@ -1,0 +1,61 @@
+.fila-quienes {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.fila-quienes .texto {
+  flex: 1;
+}
+
+.fila-quienes .imagen img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.actualidad-box {
+  background: #fff0e6;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.mision-vision {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-mv {
+  flex: 1 1 45%;
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card-mv h3 {
+  color: #d94d1a;
+  margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .fila-quienes {
+    flex-direction: column;
+  }
+  .mision-vision {
+    flex-direction: column;
+  }
+}
+
+.fila-invertida {
+  flex-direction: row-reverse;
+}
+
